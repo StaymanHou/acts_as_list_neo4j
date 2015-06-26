@@ -1,0 +1,6 @@
+AllCops:
+  Exclude:
+    - 'acts_as_list_neo4j.gemspec'
+
+Metrics/LineLength:
+  Enabled: false
