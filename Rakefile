@@ -23,6 +23,7 @@ Jeweler::Tasks.new do |gem|
   gem.authors     = ['Stayman Hou']
   gem.license     = 'MIT'
   # dependencies defined in Gemfile
+  gem.files = Dir.glob('lib/**/*.rb')
 end
 Jeweler::RubygemsDotOrgTasks.new
 
